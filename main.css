@@ -23,3 +23,32 @@ button.coolStuffBtn {
     display: block;
     margin: auto;
 }
+
+h1.modalIcon {
+    text-align: center;
+    font-family: Stoke;
+    background: linear-gradient(royalblue, purple);
+    background: -webkit-linear-gradient(to right,#eee, #333);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.modalFormWrapper {
+    padding: 2rem;
+}
+
+.modal-header {
+    background: #cccccc;
+}
+
+.modal-body {
+    background: #ECEEEF;
+}
+
+.modal-footer {
+    background: #cccccc;
+}
+
+.modalFormWrapper label {
+    font-weight: 400;
+}
