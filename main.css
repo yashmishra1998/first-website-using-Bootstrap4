@@ -17,13 +17,6 @@
     margin-top: 20px;
 }
 
-button.coolStuffBtn {
-    background-color: red;
-    color: #ffffff;
-    display: block;
-    margin: auto;
-}
-
 h1.modalIcon {
     text-align: center;
     font-family: Stoke;
@@ -51,4 +44,70 @@ h1.modalIcon {
 
 .modalFormWrapper label {
     font-weight: 400;
+}
+
+.img-fluid.imgCenter {
+    display: block;
+    margin: auto;
+}
+
+.btn {
+    display: block;
+    margin: auto;
+    background-color: white;
+    color: rgba(0,0,0,0.8);
+    width: 200px;
+    border-radius: 20px 20px 0px 0px;
+    text-transform: uppercase;
+    font-weight: 500;
+    text-shadow: 2px 2px 2px rgba(0,0,0,0.4);
+}
+
+button.coolStuffBtn {
+    background-color: royalblue;
+    color: #ffffff;
+    display: block;
+    margin: auto;
+    width: auto;
+    border-radius: 7px;
+}
+
+div.sectionLight2 .col-sm-6.col-lg-4 {
+    padding: 1rem;
+}
+
+.phImgWrapper {
+    position: relative;
+    height: 200px;
+}
+
+.phBtnWrapper {
+    position: absolute;
+    top: -20px;
+    background: linear-gradient(to right, white, gray, white);
+}
+
+img.img-fluid.imgCenter {
+    opacity: 0.99;
+}
+
+.phTitle h1 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    font-family: Lobster;
+    font-size: 3.5rem;
+    text-align: center;
+    text-shadow: 2px 3px 4px rgba(0,0,0,0.5);
+    background: linear-gradient(black,gray);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.phContent {
+    text-align: center;
+    font-size: 1.25rem;
+    padding: 20px;
+    border: 10px solid slategray;
+    border-bottom-color: gray;
+    border-right-color: gray;
 }
